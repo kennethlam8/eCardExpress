@@ -9,11 +9,13 @@ https://docs.google.com/presentation/d/14DY2FlHw4qUuLLrGZMQCVq6lbukBCPzW9EMCEvHH
 
 # Init
 Frontend:
+ - ios: pod install / arch -x86_64 pod install
  - To build & start app in emulator/ remote console
 ```shell
 yarn android / yarn ios
 ```
 Backend:
+ - Setup env file by using env-example
  - To start up server in port 8080
 ```shell
 yarn start

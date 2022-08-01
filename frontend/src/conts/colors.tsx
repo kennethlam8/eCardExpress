@@ -1,0 +1,21 @@
+const COLORS = {
+  primaryColor: '#1D9BF0',
+  light: '#808080',
+  darkGrey:"#3d3d3d",
+  disable: '#9e9e9e20',
+  buttonDisable: '#BABABA',
+  androidDefaultBackground: '#EEEEEE',
+  businessCardTextColor: '#4e4e4e',
+  green: '#00FF00',
+  lightLineColor: '#9e9e9e33',
+  grey: '#BABBC3',
+  veryLight: '#EEF2F5',
+  white: '#fff',
+  black: '#000',
+  lightBlue: '#89CFF0',
+  notificationRed: '#fb3958',
+  blue: '#5D5FEE',
+  darkBlue: '#7978B5',
+  red: '#e32636',
+};
+export default COLORS;

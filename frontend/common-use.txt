@@ -1,0 +1,29 @@
+React Native:
+
+Navigation:
+        yarn add @react-navigation/native 
+        yarn add react-native-screens react-native-safe-area-context
+        yarn add react-native-gesture-handler
+    Stack:
+        yarn add @react-navigation/stack
+    BottomTab:
+        yarn add @react-navigation/bottom-tabs
+
+ios:
+(everytime)
+    cd ios -> arch -x86_64 pod install
+    rebuild xCode
+
+facebook
+ecardexpress@gmail.com
+P:ecardexpress123
+
+For test purpose:
+App ID: 782332339429663
+
+For Development purpose:
+App ID: 326519669693891
+
+
+Package.Json 
+-     "@fortawesome/free-solid-svg-icons": "^6.1.1",

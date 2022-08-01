@@ -1,0 +1,77 @@
+users
+-
+id PK int FK >- user_cardholders.user_id
+email varchar(60) unique
+first_name varchar(60) nullable
+last_name varchar(60) nullable
+password varchar(60)
+created_at timestamp
+updated_at timestamp
+
+user_cards
+-
+id PK int
+user_id int FK >- users.id
+card_image text nullable
+qrcode_image text unique
+first_name varchar(60)
+last_name varchar(60)
+title varchar(60)
+sector varchar(60) nullable
+company_name varchar(255)
+address text nullable
+contact_email varchar(60) nullable
+website text nullable
+created_at timestamp
+updated_at timestamp
+
+user_cardholders
+-
+id PK int
+user_id int
+card_stored int FK >- user_cards.id
+created_at timestamp
+event_id int FK >- events.id nullable
+
+events
+-
+id PK int
+name varchar(255)
+banner_image text nullable
+qrcode_image text unique
+invitation_code varchar(255) unique
+sector varchar(255) nullable
+organiser varchar(255)
+host_id int FK >- users.id
+start_date date
+end_date date nullable
+start_time time
+end_time time nullable
+status varchar(60)
+address text nullable
+conference_link text nullable
+conference_type varchar(60) nullable
+estimated_participant int nullable
+event_link text nullable
+fb_link text nullable
+linkedin_link text nullable
+contact_email varchar(60) nullable
+contact_person varchar(60) nullable
+is_private boolean
+allowtime_walkin int
+created_at timestamp
+updated_at timestamp
+
+event_participants
+-
+id PK int
+event_id int FK >- events.id
+participant_id int FK >- user_cards.id
+
+telephones
+-
+id PK int
+card_id int FK >- user_cards.id
+tel_number int
+country_code int
+category varchar(60)

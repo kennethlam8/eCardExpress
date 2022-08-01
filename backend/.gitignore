@@ -1,0 +1,16 @@
+.env
+node_modules
+tsconfig.tsbuildinfo
+*-lock.*
+.last
+.vscode
+yarn.lock
+coverage/
+.env.development
+.env.test
+pre
+venv_*
+__pycache__
+unused-material.html
+uploads/
+build/

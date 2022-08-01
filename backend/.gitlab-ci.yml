@@ -1,0 +1,27 @@
+image: node:latest
+
+stages:
+  - deploy
+
+deploy:
+    before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private.pem
+    - chmod 400 private.pem
+    - ssh-add private.pem > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H ecard-express.com > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    stage: deploy
+    only:
+    - production
+    script:
+      - ssh ubuntu@ecard-express.com
+        "cd /home/ubuntu/ecardexpress-backend;
+        git pull origin production;
+        yarn install;
+        yarn knex migrate:latest;
+        forever restart index.js;"
+        

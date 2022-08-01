@@ -1,0 +1,67 @@
+CSS:
+Theme Color(blue): #1D9BF0
+
+Title Font:
+none
+
+Content Font: opensans (google font)
+CDN:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+CSS:
+font-family: 'Open Sans', sans-serif;
+
+Brand Logo (Temp):
+/public/assets/img/brand-logo/eCardExpressLogo01.jpeg
+
+ecard-express.com
+GOOGLE_CLIENT_ID=974768852486-hthon1qap1rk6andmqej4dcmj1nvoq2n.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+localhost:8080
+GOOGLE_CLIENT_ID=974768852486-4miqt62b1agfmor3k48qhe3n5sraramb.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+Account:
+Gmail:
+ecardexpress@gmail.com
+ecardexpress123
+window desktop: vgjdsxoinzowjmde
+MAC: snzaoyqviuejmpvk
+
+ecardexpress.user1@gmail.com
+ecardexpress123
+
+ecardexpress.user2@gmail.com
+ecardexpress123
+
+AWS:
+ecardexpress@gmail.com
+Ecardexpress123
+
+Git:
+Develop Branch (Master):
+git add / commit / push
+Production Branch (production):
+git branch (checking)
+git checkout production (move to production)
+git merge master (merge branch to production)
+git push
+* remember back to master branch to continue (git checkout master)
+
+db init:
+yarn knex migrate:latest
+yarn knex seed:run
+
+-reverse last migrate
+yarn knex migrate:rollback
+
+Merge to production:
+git checkout production
+git merge master
+git push
+
+git checkout master
+
+ssh ubuntu@18.142.187.172

@@ -1,4 +1,7 @@
-# Ecardexpress
+# eCardExpress
+
+More details:
+https://docs.google.com/presentation/d/14DY2FlHw4qUuLLrGZMQCVq6lbukBCPzW9EMCEvHHH78/edit?usp=sharing
 
 - [Init](#init)
 - [Devices](#devices)

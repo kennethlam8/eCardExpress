@@ -34,7 +34,7 @@ It supports iOS and Android platforms.
 <img src="./frontend/src/assets/img/other/screen-10.png" width="100%">
 <img src="./frontend/src/assets/img/other/screen-02.png" width="100%">
 <img src="./frontend/src/assets/img/other/screen-11.png" width="100%">
-<img src="./frontend/src/assets/img/other/screen-12.png" width="100%">
+<img src="./frontend/src/assets/img/other/screen-15.png" width="100%">
 <img src="./frontend/src/assets/img/other/screen-13.png" width="100%">
 <img src="./frontend/src/assets/img/other/screen-14.png" width="100%">
 

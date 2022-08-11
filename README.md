@@ -3,6 +3,11 @@
 More details:
 https://docs.google.com/presentation/d/14DY2FlHw4qUuLLrGZMQCVq6lbukBCPzW9EMCEvHHH78/edit?usp=sharing
 
+<br/>
+<br/>
+<img src="./frontend/src/assets/img/other/ecardexpress-portfolio-01" width="80%">
+<br/>
+
 - [Init](#init)
 - [Devices](#devices)
 - [Physic Build](#physicBuild)

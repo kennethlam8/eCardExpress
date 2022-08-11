@@ -5,7 +5,7 @@ https://docs.google.com/presentation/d/14DY2FlHw4qUuLLrGZMQCVq6lbukBCPzW9EMCEvHH
 
 <br/>
 <br/>
-<img src="./frontend/src/assets/img/other/ecardexpress-portfolio-01" width="80%">
+<img src="./frontend/src/assets/img/other/ecardexpress-portfolio-01.png" width="80%">
 <br/>
 
 - [Init](#init)
